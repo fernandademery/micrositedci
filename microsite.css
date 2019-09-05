@@ -1,0 +1,88 @@
+body {margin: 0;}
+
+header {
+    background-color: gainsboro;
+    padding: 10px;
+
+}
+
+header img {width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px
+}
+
+figure {
+    padding: 0;
+    margin-left: 10px;
+    position: relative;
+    width: 400px;
+    height: 266px;
+    overflow: hidden;
+        float: left;
+}
+
+figure img {
+    width: 400px;
+    position: absolute;
+    width: 100%;
+    transition: all 0.8s 0.5s;
+}
+
+figcaption {
+    position: absolute;
+    padding: 20px;
+    background: rgba(255,255,255,0.5); 
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%; /* 100% is relative to the container (the figure), so it'll make the caption fit the image*/
+     margin-top: 266px;
+    transition: all 0.6s;
+            }
+
+figure:hover figcaption {
+              margin-top: 210px;
+            }
+            
+figure:hover img {
+            transform: scale(1.1);
+            }
+
+p {
+    color: gray;
+    text-align:left;
+    font-family: sans-serif
+}
+
+#cta {
+   background-color: skyblue;
+    color: black;
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+button {
+    position: fixed;
+        bottom: 0;
+        right: 0;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 2px;
+    font-size: 20px;
+            }
+
+button a {
+    color: white;
+    text-decoration: none
+}
+            
